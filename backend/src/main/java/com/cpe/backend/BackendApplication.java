@@ -270,15 +270,15 @@ public class BackendApplication {
     		maintenanceRepository.saveAndFlush(newMaintenance);
 
 			
-			provinceRepository.findAll().forEach(System.out::println);
-			carseatRepository.findAll().forEach(System.out::println);
-			brandRepository.findAll().forEach(System.out::println); 
-			employeeRepository.findAll().forEach(System.out::println);
-			payforfineRepository.findAll().forEach(System.out::println);
-			rentTypeRepository.findAll().forEach(System.out::println);
-			optionsRepository.findAll().forEach(System.out::println);
-			repairmanRepository.findAll().forEach(System.out::println);
-			serviceRepository.findAll().forEach(System.out::println);
+			// provinceRepository.findAll().forEach(System.out::println);
+			// carseatRepository.findAll().forEach(System.out::println);
+			// brandRepository.findAll().forEach(System.out::println); 
+			// employeeRepository.findAll().forEach(System.out::println);
+			// payforfineRepository.findAll().forEach(System.out::println);
+			// rentTypeRepository.findAll().forEach(System.out::println);
+			// optionsRepository.findAll().forEach(System.out::println);
+			// repairmanRepository.findAll().forEach(System.out::println);
+			// serviceRepository.findAll().forEach(System.out::println);
 		};
 	}
 

@@ -71,6 +71,7 @@ public class MaintenanceTest {
         maintenance = maintenanceRepository.saveAndFlush(maintenance);
 
         Optional<Maintenance> found = maintenanceRepository.findById(maintenance.getId());
+        assertEquals("เปลี่ยนยาง", found.get().getMessageBox());
         
     }
 
