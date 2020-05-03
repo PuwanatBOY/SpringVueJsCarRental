@@ -1,0 +1,16 @@
+version: '2'
+
+services: 
+
+  client: 
+    build: ./frontend    
+    ports:
+            - 8081:8081
+    
+    environment:
+            - baseURL=http://backend:9000
+
+  backend:
+          build: ./backend
+          ports:
+                  - 9000:9000
