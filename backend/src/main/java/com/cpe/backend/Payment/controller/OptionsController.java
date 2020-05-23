@@ -13,7 +13,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 
-@CrossOrigin(origins = "http://172.17.0.200:8081")
+@CrossOrigin(origins = "http://localhost:8081")
 @RestController
 public class OptionsController {
 

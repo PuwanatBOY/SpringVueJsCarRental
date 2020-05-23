@@ -13,7 +13,7 @@ import com.cpe.backend.Carname.Repository.CarseatRepository;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-@CrossOrigin(origins = "http://172.17.0.200:8081")
+@CrossOrigin(origins = "http://localhost:8081")
 @RestController
 public class CarseatController {
 
