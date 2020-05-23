@@ -35,7 +35,7 @@ import com.cpe.backend.Carname.Repository.ProvinceRepository;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-@CrossOrigin(origins = "http://167.71.219.169:8081")
+@CrossOrigin(origins = "http://172.17.0.200:8081")
 @RestController
 public class CarController {
     @Autowired
